@@ -1,0 +1,64 @@
+*{
+margin: 0;
+padding: 0;
+font-family: 'Poppins', sans-serif;
+}
+.topnav {
+overflow: hidden;
+border-bottom: 1px solid #ddd;
+}
+.topnav a {
+float: left;
+color: gray;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+.topnav a:hover {
+border-bottom:2px solid #ddd;
+color: #333;
+}
+.topnav a.active {
+border-bottom:2px solid #ddd;
+}
+.hero-image {
+background-image: url("./hero-overlay.png");
+background-position: center;
+height: 550px;
+position: relative;
+}
+  
+.hero-text {
+text-align: center;
+position: relative;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: gray;
+}
+.hero-text button {
+border: none;
+outline: 0;
+display: inline-block;
+padding: 10px 25px;
+margin: 18px;
+border-radius: 6px;
+color: black;
+background-color: #ddd;
+text-align: center;
+cursor: pointer;
+}
+.hero-text button:hover {
+background-color: #555;
+color: white;
+}
+.footer {
+left: 0;
+bottom: 0;
+width: 100%;
+color: gray;
+text-align: center;
+border-top: 1px solid  #ddd;
+padding:20px 0;
+}
